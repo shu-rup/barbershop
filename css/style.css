@@ -477,6 +477,371 @@ body {
     margin-right: 0;
 }
 
+/*Стили внутренних страниц*/
+
+.inner-page {
+    background:  #f8f5f2 url("../img/white-texture.jpg");
+
+    color: #000000;
+}
+
+
+.inner-page .page-header {
+    margin-bottom: 55px;
+}
+
+
+.page-navigation .navigation-item-logo {
+    float: left;
+    width: 111px;
+    height: 20px;
+    padding-top: 22px;
+}
+
+
+.page-navigation .navigation-item-logo:hover {
+    background: none;
+}
+
+
+.page-navigation .active {
+    position: relative;
+
+    background: none;
+}
+
+
+.page-navigation .active a:hover {
+    background: none;
+}
+
+
+.page-navigation .active::after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    left: 20px;
+
+    height: 5px;
+
+    background-color: #ffffff;
+}
+
+
+.page-navigation .active span {
+    display: block;
+    padding: 25px 20px;
+}
+
+
+.inner-page-title {
+    margin-bottom: 55px;
+}
+
+
+.inner-page-title h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+
+    font-size: 30px;
+    line-height: 42px;
+}
+
+
+.breadcrumbs {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+
+.breadcrumbs li {
+    position: relative;
+
+    display: inline;
+    padding-right: 40px;
+}
+
+
+.breadcrumbs a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+
+.breadcrumbs .current {
+    color: #aba9a7;
+}
+
+
+.breadcrumbs .current::after {
+    display: none;
+}
+
+
+.breadcrumbs li::after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    right: 18px;
+
+    width: 8px;
+    height: 8px;
+
+    background-color: #000000;
+    transform: rotate(45deg);
+}
+
+
+.assortment-content-title {
+    margin: 0;
+    margin-bottom: 32px;
+
+    font-size: 24px;
+    line-height: 30px;
+}
+
+
+.assortment {
+    width: 220px;
+    float: left;
+    min-height: 750px;
+}
+
+
+.assortment fieldset {
+    margin:0;
+    margin-bottom: 50px;
+    padding: 0;
+
+    border:0 none;
+}
+
+
+.assortment p {
+    margin: 0;
+    padding: 0;
+
+    margin-bottom: 11px;
+}
+
+
+.assortment input {
+    margin-right: 20px;
+
+}
+
+
+.assortment label:hover {
+    cursor: pointer;
+
+    color: #663d15;
+}
+
+
+.makers input[type=checkbox] {
+    display: none;
+}
+
+
+.makers label::before {
+    content: " ";
+    display: inline-block;
+
+    background: #ffffff;
+
+    margin-right: 20px;
+
+    width: 14px;
+    height: 14px;
+    border: 2px solid #000000;
+
+    vertical-align: middle;
+}
+
+
+.makers input[type=checkbox]:checked + label::before {
+    background: url("../img/checkbox.png") no-repeat 50% 50%;
+}
+
+
+.groups-of-goods input[type=radio] {
+    display: none;
+}
+
+
+.groups-of-goods label::before {
+    content: "";
+    display: inline-block;
+
+    background: #ffffff;
+
+    margin-right: 20px;
+
+    width: 14px;
+    height: 14px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+
+    vertical-align: middle;
+}
+
+
+.groups-of-goods input[type=radio]:checked + label::before {
+
+    content: "\2022";
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+
+    line-height: 14px;
+
+}
+
+
+.item-block {
+    width: 220px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: left;
+
+    box-shadow: 0 0 20px 5px rgba(0, 1, 1, 0.2);
+}
+
+
+.item-block .btn {
+    margin: 0;
+    padding: 15px 20px;
+}
+
+
+.item-name {
+    width: 188px;
+    margin: 0 auto;
+    padding: 16px;
+
+    background-color: #ffffff;
+}
+
+
+.buy-a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.price {
+    display: inline-block;
+
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 19px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "PT Sans Narrow", "Arial", sans-serif;
+    vertical-align: top;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #e5e5e5;
+}
+
+
+.item-name .price {
+    margin: 0;
+    padding: 17px 25px;
+
+    min-width: 50px;
+}
+
+
+.pagination {
+    width: 230px;
+    float:left;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+
+.pagination-btn {
+    display: inline-block;
+    padding: 5px 15px;
+    margin-right: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "PT Sans Narrow", "Arial", sans-serif;
+    vertical-align: top;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    background-color: #000000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.pagination-btn.active {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/*Общие стили для контентных тегов*/
+
+.inner-content {
+    margin-bottom: 75px;
+}
+
+.inner-content h2 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.inner-content h3 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.inner-content h2 + h3 {
+    margin-top: 30px;
+}
+
+.inner-content p {
+    margin: 14px 0;
+}
+
+.inner-content table {
+    border-collapse: collapse;
+}
+
+.inner-content td {
+    padding: 10px 15px;
+
+    border: 2px solid #000000;
+}
+
+
 /*Всплывающая форма*/
 
 .modal-content {
