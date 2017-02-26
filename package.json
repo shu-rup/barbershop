@@ -1,0 +1,12 @@
+{
+  "name": "barbershop",
+  "version": "1.0.0",
+  "description": "HTML template created by learning HTML Academy Basic Intensive",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Victoria Uvarova",
+  "private": true,
+  "license": "MIT"
+}

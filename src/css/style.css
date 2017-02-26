@@ -9,7 +9,7 @@ body {
     text-transform: uppercase;
     color: #ffffff;
 
-    background: #000000 url('../img/body-background.jpg') no-repeat center top;
+    background: #000000 url('/img/body-background.jpg') no-repeat center top;
 }
 
 
@@ -110,7 +110,7 @@ body {
     width: 18px;
     height: 18px;
 
-    background: url("../img/icon-login.png") no-repeat;
+    background: url("/img/icon-login.png") no-repeat;
     opacity: 0.3;
 }
 
@@ -193,8 +193,8 @@ body {
     color: #000000;
 
     background:
-            url("../img/index-content shadow.png") no-repeat center,
-            #f8f5f2 url("../img/white-texture.jpg");
+            url("/img/index-content shadow.png") no-repeat center,
+            #f8f5f2 url("/img/white-texture.jpg");
 }
 
 
@@ -375,7 +375,7 @@ body {
 
     color: #ffffff;
 
-    background: #252525 url("../img/footer-texture.jpg");
+    background: #252525 url("/img/footer-texture.jpg");
 }
 
 
@@ -420,7 +420,7 @@ body {
     vertical-align: top;
     text-decoration: none;
 
-    background: #000000 url("../img/social-icons.png") no-repeat center;
+    background: #000000 url("/img/social-icons.png") no-repeat center;
 }
 
 
@@ -480,7 +480,7 @@ body {
 /*Стили внутренних страниц*/
 
 .inner-page {
-    background:  #f8f5f2 url("../img/white-texture.jpg");
+    background:  #f8f5f2 url("/img/white-texture.jpg");
 
     color: #000000;
 }
@@ -669,7 +669,7 @@ body {
 
 
 .makers input[type=checkbox]:checked + label::before {
-    background: url("../img/checkbox.png") no-repeat 50% 50%;
+    background: url("/img/checkbox.png") no-repeat 50% 50%;
 }
 
 
@@ -927,7 +927,7 @@ body {
     line-height: 48px;
     text-align: center;
 
-    background: #f8f5f2 url("../img/white-texture.jpg");
+    background: #f8f5f2 url("/img/white-texture.jpg");
 }
 
 
@@ -1070,7 +1070,7 @@ body {
 
     color: #000000;
 
-    background: #f8f5f2 url("../img/white-texture.jpg");
+    background: #f8f5f2 url("/img/white-texture.jpg");
 }
 
 
@@ -1221,14 +1221,14 @@ body {
 
 
 .login-form input.icon-user {
-    background-image: url("../img/modal-sprite.png");
+    background-image: url("/img/modal-sprite.png");
     background-repeat: no-repeat;
     background-position: 95% 15px;
 }
 
 
 .login-form input.icon-password {
-    background-image: url("../img/modal-sprite.png");
+    background-image: url("/img/modal-sprite.png");
     background-repeat: no-repeat;
     background-position: 95% -15px;
 }
