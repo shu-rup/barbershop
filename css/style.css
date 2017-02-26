@@ -1,4 +1,4 @@
-/*Общие стили для всех страниц + стили главной*/
+/*Общие для всех страниц стили + дополнительные стили главной*/
 body {
     min-width: 960px;
 
@@ -906,6 +906,7 @@ body {
 }
 
 /*Особые стили для контентных тегов*/
+
 .big-heading {
     margin-top:55px;
     margin-bottom: 65px;
@@ -1017,6 +1018,40 @@ body {
 
 .short-text {
     padding-right: 80px;
+}
+
+/*Колонки для контента*/
+
+.inner-columns {
+    margin: 60px 0;
+}
+
+
+.inner-column-left,
+.inner-column-right {
+    width: 460px;
+}
+
+
+.inner-column-left {
+    float: left;
+}
+
+
+.inner-column-right {
+    float: right;
+}
+
+
+.inner-column-left *:first-child,
+.inner-column-right *:first-child {
+    margin-top: 0;
+}
+
+
+.inner-column-left *:last-child,
+.inner-column-right *:last-child {
+    margin-bottom: 0;
 }
 
 /*Всплывающая форма*/
