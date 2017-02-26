@@ -8,5 +8,17 @@
   },
   "author": "Victoria Uvarova",
   "private": true,
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sync": "^0.6.2"
+  },
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  }
 }
