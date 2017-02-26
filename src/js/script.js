@@ -15,7 +15,7 @@ link.addEventListener("click", function (event) {
     if(storage) {
         login.value = storage;
         password.focus();
-    }else {
+    } else {
         login.focus();
     }
 });
@@ -33,7 +33,7 @@ form.addEventListener("submit", function (event) {
         event.preventDefault();
         popup.classList.add("modal-error");
 
-    }else {
+    } else {
         localStorage.setItem("login", login.value);
     }
 });
